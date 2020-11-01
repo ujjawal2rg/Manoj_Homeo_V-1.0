@@ -60,26 +60,26 @@
         <p class="card-text" style="text-align: justify;">
             We hope you are doing well. If you are an existing patients and your monthly review is due then we request you to plz fill the following form.It would help if you write how you are feeling now since your last consultation and the percentage of improvement.
             eg: allergy is 60% better or backache is 20% better. Pl submit the details so as to enable Dr.Manoj to make a review of your treatment.</p>
-        <form>
+        <form name="Ep" method="POST" data-netlify="true">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
-                <label for="exampleFormControlInput2">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                <label for="exampleFormControlInput3">Mobile Number</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Mobile Number ">
-                <label for="exampleFormControlInput3">Your Clinic Reg Id: (required)</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <label for="fname">Name</label>
+                <input type="text" class="form-control" id="fname" placeholder="Enter Your Name">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="number">Mobile Number</label>
+                <input type="number" class="form-control" id="number" placeholder="Enter Your Mobile Number ">
+                <label for="number">Your Clinic Reg Id: (required)</label>
+                <input type="number" class="form-control" id="number" placeholder="">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Please mention in detail about your present issues:</label>
+                <label for="subject">Please mention in detail about your present issues:</label>
                 <h5>(Pl write in detail about how you are feeling now since your last consultation. Pl mention about each problem and how much % are you better now)
                 </h5>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <textarea class="form-control" id="subject" rows="5"></textarea>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Any other problem?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <label for="subject">Any other problem?</label>
+                <textarea class="form-control" id="subject" rows="5"></textarea>
             </div>
             <button type="button" class="btn btn-primary btn-lg btn-block">SUBMIT FORM</button>
 
